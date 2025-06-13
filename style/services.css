@@ -1,0 +1,51 @@
+#services {
+  background-color: var(--gray-100);
+  padding-block: 88px 120px;
+}
+
+#services > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#services header h3 {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+#services header h2 {
+  font: var(--title-md-asap);
+  color: var(--gray-600);
+}
+
+#services-grid {
+  width: 888px;
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: 155px;
+  gap: 24px;
+  margin: 56px auto 0 auto;
+}
+
+.service-card {
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.service-card header {
+  margin-top: 20px;
+  gap: 8px;
+}
+
+.service-card header h4 {
+  font: var(--title-sm-asap);
+  color: var(--gray-600);
+}
+
+.service-card header p {
+  font: var(--text-sm-maven-pro);
+  color: var(--gray-500);
+}

@@ -39,3 +39,7 @@
   --text-sm-maven-pro: 400 14px/140% var(--font-family-maven-pro); 
 
 }
+
+body {
+  background-color: var(--gray-200);
+}
